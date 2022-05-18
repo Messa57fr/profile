@@ -1,7 +1,7 @@
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
-    width: 700px;
+    width: 600px;
   }
 }
 
@@ -33,17 +33,13 @@ h1, h2{
   line-height: 30px;
 }
 
-/* p{
-  margin-bottom: 28px;
-} */
-
 a{
   text-decoration: none;
-  color: white;
+  color:#f29a9a;
 }
 
 a:hover {
-  color: #fbf6e9;
+  color: #f6c3c3;
 }
 
 .container {
@@ -86,4 +82,10 @@ margin-top: 28px;
   padding: 10px 20px;
   border-radius: 4px;
   display: inline-block
+  hover
+}
+
+.btn-blue:hover {
+  background-color: #97c6e1;
+  color: white;
 }
